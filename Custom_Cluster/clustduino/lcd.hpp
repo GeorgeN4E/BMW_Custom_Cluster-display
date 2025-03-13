@@ -11,8 +11,8 @@
 #define TFT_BACKLIGHT 7
 
 // Color definitions (keep your custom colors)
-#define ST77XX_AMBER 0xD0E0
-#define ST77XX_BLKAMBER 0x2000
+#define ST77XX_AMBER 0x07E0
+#define ST77XX_BLKAMBER 0xffff
 
 // Change display type to ST7735
 extern Adafruit_ST7735 tft;

@@ -21,9 +21,12 @@ void setup() {
     Serial.begin(115200);
     initDisplay();
     canSimulator.begin();
+    displayMultiGaugeScreen();
 }
 
 void loop() {
-    displayMultiGaugeScreen();
+    
+    //should be here but to be static I will put it in setup
+    //displayMultiGaugeScreen();
     delay(100);
 }

@@ -16,9 +16,9 @@ void displayMultiGaugeScreen(void);
 
 //THIS is for simulation
 #pragma once
-#include "images/bitmaps.h"
+#include "images/bitmaps80_160.h"
 #include "lcd.hpp"
-#include "fonts/Slimlines_MMKJ20pt7b.h"
+#include "fonts/Slimlines12pt7b.h"
 #include <Adafruit_GFX.h>
 #include <Adafruit_ST7735.h>
 #include "canSimulator.hpp"
@@ -26,3 +26,4 @@ void displayMultiGaugeScreen(void);
 extern CanSimulator canSimulator; // Declare global simulator instance
 
 void displayMultiGaugeScreen(void);
+void updateGauge(int x, int y, int index, float value, int decimals, bool showMax);
