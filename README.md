@@ -6,6 +6,11 @@ This project is a multi-gauge display system designed for an ST7735 TFT screen, 
 
 **Soon** will use MCP2515 canbus sniffer with a Raspberry PI pico to fetch real-time data from the car and use it as a secondary screen to display important engine data. 
 
+## Demo
+![](https://github.com/GeorgeN4E/BMW_Custom_Cluster-display/blob/main/media/demo.gif)
+
+Note: The display's framerate is actually higher, but the GIF format makes it appear choppy.
+
 ## Features as of **now**
 - Uses **Adafruit GFX** and **Adafruit ST7735** libraries for display handling.
 - Reads real-time data frsom the **CAN bus simulator**.
