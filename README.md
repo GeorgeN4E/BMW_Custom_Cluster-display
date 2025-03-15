@@ -13,7 +13,7 @@ Note: The display's framerate is actually higher, but the GIF format makes it ap
 
 ## Features as of **now**
 - Uses **Adafruit GFX** and **Adafruit ST7735** libraries for display handling.
-- Reads real-time data frsom the **CAN bus simulator**.
+- Reads real-time data from the **CAN bus simulator**.
 - Displays sensor values dynamically on a **1-bit canvas**.
 - Static icons representing different gauges.
 - Uses **efficient rendering** to update only necessary portions of the screen.
