@@ -13,5 +13,7 @@ public:
 
 private:
     unsigned long lastUpdate = 0;
-    const unsigned long updateInterval = 1000; // Update every second
+    const unsigned long updateInterval = 100; // Update every second
 };
+
+extern CanSimulator canSimulator;  // Declaration of the global instance

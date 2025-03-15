@@ -11,5 +11,5 @@ void initDisplay(void) {
 
 	tft.fillScreen(ST77XX_BLKAMBER);
 	tft.enableDisplay(true);
-	Serial.print("Display Initialized with ST7735S!");
+	Serial.print("Display Initialized with ST7735S! \n");
 }

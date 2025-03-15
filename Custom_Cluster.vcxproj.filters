@@ -32,16 +32,14 @@
     <ClCompile Include="clustduino\lcd.cpp">
       <Filter>clustduino\Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="recieveCanData.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="clustduino\clusduino.ino">
       <Filter>clustduino</Filter>
     </None>
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="lcd.hpp">
-      <Filter>clustduino\Header Files</Filter>
-    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="Custom_Cluster.rc">

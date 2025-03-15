@@ -128,13 +128,11 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="clustduino\lcd.cpp" />
+    <ClCompile Include="recieveCanData.cpp" />
     <ClCompile Include="sendBinary.cpp" />
   </ItemGroup>
   <ItemGroup>
     <None Include="clustduino\clusduino.ino" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="lcd.hpp" />
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="Custom_Cluster.rc" />
