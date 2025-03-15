@@ -13,42 +13,13 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
-    <Filter Include="clustduino">
-      <UniqueIdentifier>{342d0263-4205-4ab5-bbb1-f1896a771540}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="clustduino\Header Files">
-      <UniqueIdentifier>{89b51838-6ca2-4e02-b916-b4a90c3697c9}</UniqueIdentifier>
-      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
-    </Filter>
-    <Filter Include="clustduino\Source Files">
-      <UniqueIdentifier>{b06cd64d-9d07-43c1-8739-b3adb811bea2}</UniqueIdentifier>
-      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
-    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="sendBinary.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="clustduino\lcd.cpp">
-      <Filter>clustduino\Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="recieveCanData.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="clustduino\clusduino.ino">
-      <Filter>clustduino</Filter>
-    </None>
-  </ItemGroup>
-  <ItemGroup>
-    <ResourceCompile Include="Custom_Cluster.rc">
-      <Filter>Resource Files</Filter>
-    </ResourceCompile>
-  </ItemGroup>
-  <ItemGroup>
-    <Image Include="Bitmap.bmp">
-      <Filter>Resource Files</Filter>
-    </Image>
   </ItemGroup>
 </Project>

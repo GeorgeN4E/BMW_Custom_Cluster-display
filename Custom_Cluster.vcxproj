@@ -127,18 +127,8 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="clustduino\lcd.cpp" />
     <ClCompile Include="recieveCanData.cpp" />
     <ClCompile Include="sendBinary.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="clustduino\clusduino.ino" />
-  </ItemGroup>
-  <ItemGroup>
-    <ResourceCompile Include="Custom_Cluster.rc" />
-  </ItemGroup>
-  <ItemGroup>
-    <Image Include="Bitmap.bmp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
