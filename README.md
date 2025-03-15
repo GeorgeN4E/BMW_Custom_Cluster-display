@@ -51,5 +51,5 @@ Note: The display's framerate is actually higher, but the GIF format makes it ap
 - **No Text?** Check that `GFXcanvas1` is being drawn correctly using `drawBitmap()`.
 - **Incorrect Values?** Verify CAN simulator data updates and `canSimulator.update()` is being called.
 
-##** Special Thanks to:**  
+## ** Special Thanks to:**  
 - [@alexvnesta](https://github.com/alexvnesta) for the idea and parts of the code used in this project.  
